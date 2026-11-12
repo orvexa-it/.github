@@ -1,38 +1,38 @@
 # ORVEXA
 
-**Pagamenti e incassi digitali per la Pubblica Amministrazione italiana, progettati per pagoPA.**
+**Digital payments and collections for the Italian Public Administration, built for pagoPA.**
 
-ORVEXA è una piattaforma per gestire l'intero ciclo di vita di un incasso pubblico: dalla posizione debitoria all'avviso di pagamento, dalla ricevuta alla riconciliazione e all'esportazione contabile.
+ORVEXA is a platform that manages the full lifecycle of public-sector collections: from debt positions and payment notices to receipts, reconciliation and accounting exports.
 
-> 🚧 Il progetto è in fase di sviluppo.
+> 🚧 This project is under active development.
 
-## Per chi
+## Who it is for
 
-- Comuni ed enti locali
-- Università e istituzioni scolastiche
-- Regioni e pubbliche amministrazioni
-- Aziende sanitarie
-- Utility e società partecipate
-- Software house che sviluppano soluzioni per la PA
+- Municipalities and local authorities
+- Universities and educational institutions
+- Regions and public administrations
+- Healthcare organizations
+- Public utilities and publicly owned companies
+- Software houses building solutions for the Public Administration
 
-## Cosa fa
+## What it does
 
-- **Posizioni debitorie**: creazione, rateizzazione, avvisi di pagamento, annullamenti
-- **Pagamenti**: ciclo di vita completo, esiti e ricevute
-- **Riconciliazione**: abbinamento di pagamenti e rendicontazioni, gestione delle anomalie, export contabili
-- **Integrazione**: API REST documentate con OpenAPI, webhook, ambiente sandbox
-- **Backoffice**: configurazione degli enti, monitoraggio, report, audit trail
+- **Debt positions**: creation, installments, payment notices, cancellations
+- **Payments**: full lifecycle tracking, outcomes and receipts
+- **Reconciliation**: matching payments with reporting flows, anomaly handling, accounting exports
+- **Integration**: REST APIs documented with OpenAPI, webhooks, sandbox environment
+- **Backoffice**: entity configuration, monitoring, reporting, audit trail
 
-## I dati restano dell'ente
+## Your data stays yours
 
-Ogni cliente ha la propria installazione indipendente e isolata, con database, chiavi di cifratura e backup dedicati. Tre modalità:
+Every customer gets its own independent, isolated deployment with a dedicated database, encryption keys and backups. Three deployment models:
 
-| Modalità | Infrastruttura |
+| Model | Infrastructure |
 |---|---|
-| **Managed Cloud** | Gestita da ORVEXA su AWS, nella region europea scelta dal cliente |
-| **Customer Cloud** | Nel cloud del cliente (AWS o Google Cloud), con permessi delegati e revocabili |
-| **Customer Managed** | Sull'infrastruttura del cliente, gestita dal suo team IT |
+| **Managed Cloud** | Operated by ORVEXA on AWS, in the European region the customer chooses |
+| **Customer Cloud** | In the customer's own cloud (AWS or Google Cloud), with delegated, revocable permissions |
+| **Customer Managed** | On the customer's own infrastructure, run by its IT team |
 
-## Contatti
+## Contact
 
 🌐 [orvexa.it](https://orvexa.it)
